@@ -6,6 +6,5 @@ function solution(price, money, count) {
         sum += price*i;
     }
     if(sum>money) answer = sum-money;
-    console.log(answer);  
-        return answer;
+    return answer;
 }
